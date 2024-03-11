@@ -145,3 +145,15 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 // ----------swich------------------------------------------
+hr {
+  width: 342px;
+}
+
+@font-face {
+  font-family: "Josefin sans";
+  src: url(/Fonts/JosefinSans-Bold.ttf);
+}
+
+body {
+  font-family: "Josefin sans";
+}
