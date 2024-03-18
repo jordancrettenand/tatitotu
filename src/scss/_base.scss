@@ -26,6 +26,8 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+
+  background-color: #282a2b;
 }
 
 a {
@@ -45,25 +47,42 @@ video {
 
 .logo {
   width: 255.432px;
-  display: flex;
-  align-items: center;
-  background-color: red;
+  margin: auto;
+  margin-top: 31px;
+  margin-bottom: 78px;
 }
 
-button {
+header button {
   display: flex;
   margin: auto;
+  margin-bottom: 63px;
   padding: 10px 30px;
   justify-content: center;
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
 
+  font-size: 30px;
   border-radius: 4px;
   border: 2px solid var(--white, #fff);
   background: var(--orange, #ffba53);
 }
 
+main button {
+  display: flex;
+  margin: auto;
+  max-width: 329px;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  font-size: 22px;
+  border-radius: 4px;
+  border: 2px solid pink;
+  background: var(--orange, #ffba53);
+}
 // ----------swich-------------------------------------------
 /* The switch - the box around the slider */
 .switch {
@@ -129,7 +148,7 @@ input:checked + .slider:before {
 }
 // ----------swich------------------------------------------
 hr {
-  width: 342px;
+  max-width: 342px;
 }
 
 @font-face {
@@ -142,9 +161,31 @@ body {
 }
 
 .rouge {
-  color: red;
+  color: #ff5353;
 }
 
 .vert {
-  color: green;
+  color: #46d82d;
+  margin-right: 140px;
+}
+
+.button-couleur-1 {
+  background: #46d82d;
+}
+
+.button-couleur-2 {
+  background: #ff5353;
+}
+
+main a {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 111px;
+  margin-bottom: 24px;
 }
