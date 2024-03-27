@@ -148,7 +148,7 @@ input:checked + .slider:before {
 }
 // ----------swich------------------------------------------
 hr {
-  max-width: 342px;
+  max-width: 372px;
   border: 1px solid #000;
 }
 
@@ -163,11 +163,13 @@ body {
 
 .rouge {
   color: #ff5353;
+  margin: 70px;
 }
 
 .vert {
   color: #46d82d;
   margin-right: 140px;
+  margin: 10px;
 }
 
 .button-couleur-1 {
@@ -216,4 +218,45 @@ h4 {
 
 .remplir {
   background-color: #fff;
+}
+
+// -----------------------------
+
+.form-group {
+  margin: 10px;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 329px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid #ffba53;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+// ------------------------------
+
+.temps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
