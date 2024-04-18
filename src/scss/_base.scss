@@ -32,6 +32,7 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img,
@@ -200,6 +201,13 @@ h2 {
   white-space: nowrap;
 }
 
+h3 {
+  font-size: 30px;
+  color: #000;
+  font-family: "Josefin sans";
+  font-weight: 100;
+}
+
 header div {
   padding: 2px;
 }
@@ -237,7 +245,7 @@ textarea {
   width: 329px;
   height: 50px;
   padding: 10px;
-  border: 2px solid #ffba53;
+  border: 2px solid #000;
   border-radius: 5px;
 }
 
