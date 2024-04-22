@@ -76,7 +76,7 @@ main button {
   padding: 10px 30px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   flex-shrink: 0;
 
   font-size: 22px;
@@ -149,8 +149,10 @@ input:checked + .slider:before {
 }
 // ----------swich------------------------------------------
 hr {
-  max-width: 372px;
+  max-width: 343px;
   border: 1px solid #000;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 @font-face {
@@ -162,15 +164,17 @@ body {
   font-family: "Josefin sans";
 }
 
+.button-cocher {
+  display: flex;
+  justify-content: space-between;
+}
+
 .rouge {
   color: #ff5353;
-  margin: 70px;
 }
 
 .vert {
   color: #46d82d;
-  margin-right: 140px;
-  margin: 10px;
 }
 
 .button-couleur-1 {
@@ -213,7 +217,8 @@ header div {
 }
 
 .space {
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h4 {
@@ -232,6 +237,7 @@ h4 {
 
 .form-group {
   margin: 10px;
+  width: 380px;
 }
 
 label {
@@ -242,11 +248,13 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-  width: 329px;
+  width: 335px;
   height: 50px;
   padding: 10px;
   border: 2px solid #000;
   border-radius: 5px;
+  margin-top: 22px;
+  margin-bottom: 50px;
 }
 
 textarea {
@@ -266,5 +274,6 @@ button {
 .temps {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-right: 10px;
 }

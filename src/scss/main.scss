@@ -23,8 +23,8 @@
   height: 300px;
   padding-top: 20px;
   padding-bottom: 40px;
-  padding-left: 10px;
-  padding-left: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .title-box {
@@ -37,9 +37,23 @@
   padding-bottom: 40px;
   padding-left: 10px;
   padding-left: 10px;
+  text-align: center;
+  font-weight: 400;
 }
 
 .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-click {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.boutton-temps {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

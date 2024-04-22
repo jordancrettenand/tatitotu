@@ -19,21 +19,21 @@
       </div>
 
       <div class="container">
-        <div class="row">
-          <div class="col">
+        <div class="menu-click">
+          <div>
             <button class="favorite styled" type="button">
-              <h3>Étudiant</h3>
+              <h3>étudiant</h3>
             </button>
           </div>
-          <div class="col">
+          <div>
             <button class="favorite styled button-couleur-1" type="button">
               <h3>professeur</h3>
             </button>
           </div>
-          <div class="col">
+          <div>
             <button class="favorite styled button-couleur-2" type="button">
               <img src="../img/Vector-jeux.svg" alt="Icone jeux" />
-              <h3>Jeux</h3>
+              <h3>jeux</h3>
             </button>
           </div>
         </div>
@@ -115,18 +115,18 @@
             </div>
             <div class="color-box">
               <br />
-              <a class="vert" href="#">tout cochez</a>
-              <a class="rouge" href="#">tout décochez</a>
+              <div class="button-cocher">
+                <a class="vert" href="#">tout cochez</a>
+                <a class="rouge" href="#">tout décochez</a>
+              </div>
               <div>
-                <div class="form-group">
-                  <label for="name"></label>
-                  <input
-                    type="text"
-                    name="verbe"
-                    id="verbe"
-                    placeholder="Ajoutez un verbe"
-                  />
-                </div>
+                <label for="name form-group"></label>
+                <input
+                  type="text"
+                  name="verbe"
+                  id="verbe"
+                  placeholder="Ajoutez un verbe"
+                />
 
                 <button class="verb space" type="button">
                   <h4>Être</h4>
@@ -154,22 +154,22 @@
 
           <div class="col-4">
             <div class="col-4 title-box">
-              <h6>Mes verbes</h6>
+              <h6>Mes temps</h6>
             </div>
             <div class="color-box">
               <br />
-              <a class="vert" href="#">tout cochez</a>
-              <a class="rouge" href="#">tout décochez</a>
+              <div class="button-cocher">
+                <a class="vert" href="#">tout cochez</a>
+                <a class="rouge" href="#">tout décochez</a>
+              </div>
               <div>
-                <div class="form-group">
-                  <label for="name"></label>
-                  <input
-                    type="text"
-                    name="temps"
-                    id="temp"
-                    placeholder="Ajoutez un temps"
-                  />
-                </div>
+                <label for="name form-group"></label>
+                <input
+                  type="text"
+                  name="temps"
+                  id="temp"
+                  placeholder="Ajoutez un temps"
+                />
 
                 <hr />
                 <div class="temps">
@@ -241,11 +241,9 @@
 
           <div class="col-4">
             <div class="col-4 title-box">
-              <h6>Mes verbes</h6>
+              <h6>Options</h6>
             </div>
             <div class="color-box">
-              <br />
-              <br />
               <div>
                 <button class="favorite styled space" type="button">
                   <img
@@ -254,18 +252,18 @@
                   />Sauvegarder mon défi
                 </button>
 
-                <div class="form-group">
-                  <label for="name"></label>
-                  <input
-                    type="text"
-                    name="code"
-                    id="code"
-                    placeholder="Code à 8 caractères"
-                  />
-                </div>
+                <label for="name form-group"></label>
+                <input
+                  type="text"
+                  name="code"
+                  id="code"
+                  placeholder="Code à 8 caractères"
+                />
                 <button class="favorite styled space" type="button">
-                  <img src="../img/Vector-info.svg" alt="Icone jeux" />Charger
-                  mon défi
+                  <img
+                    src="../img/Vector-info.svg"
+                    alt="Icone charger"
+                  />Charger mon défi
                 </button>
                 <br />
                 <h4>Type</h4>
@@ -282,11 +280,12 @@
                     <span class="slider round"></span>
                   </label>
 
-                  <h4>temps</h4>
+                  <h4>Options d'impression</h4>
                 </div>
                 <hr />
                 <button class="favorite styled space" type="button">
-                  <img src="../img/Vector-info.svg" alt="Icone info" /> imprimer
+                  <img src="../img/Vector-crayon.svg" alt="Icone crayon" />
+                  imprimer
                 </button>
               </div>
             </div>
